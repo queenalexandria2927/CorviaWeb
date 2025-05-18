@@ -290,3 +290,7 @@ def main():
 
 if __name__=="__main__":
     main()
+else:   
+    # For testing purposes, we can run the main function directly
+    # without needing to create a separate script.
+    main()              
