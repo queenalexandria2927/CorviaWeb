@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>New Tab - Corvia Browser</title>
+<style>
+  body {
+    margin: 0; padding: 0;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.5s ease;
+  }
+  #search-container {
+    margin: 100px auto 0;
+    max-width: 600px;
+    text-align: center;
+  }
+  input[type="text"] {
+    width: 80%;
+    padding: 12px;
+    font-size: 18px;
+    border: 2px solid #888;
+    border-radius: 5px;
+  }
+  #bg-picker {
+    margin-top: 20px;
+  }
+  label {
+    background: rgba(0,0,0,0.4);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    user-select: none;
+  }
+  label:hover {
+    background: rgba(0,0,0,0.7);
+  }
+</style>
+</head>
+<body>
+  <div id="search-container">
+    <form id="searchForm" action="https://www.google.com/search" method="GET" target="_blank">
+      <input type="text" name="q" placeholder="Search Google..." autofocus required />
+    </form>
+
+    <div id="bg-picker">
+      <input type="file" id="fileInput" accept="image/jpeg, image/png" style="display:none;" />
+      <label for="fileInput">Choose Background Image</label>
+    </div>
+  </div>
+
+<script>
+  // Load saved background from localStorage
+  const savedBg = localStorage.getItem('newtabBg');
+  if (savedBg) {
+    document.body.style.backgroundImage = `url(${savedBg})`;
+  }
+
+  const fileInput = document.getElementById('fileInput');
+  fileInput.addEventListener('change', (event) => {
+    const file = event.target.files[0];
+    if (file && file.type.startsWith('image/')) {
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        const dataUrl = e.target.result;
+        document.body.style.backgroundImage = `url(${dataUrl})`;
+        localStorage.setItem('newtabBg', dataUrl);
+      };
+      reader.readAsDataURL(file);
+    }
+  });
+
+  // Optional: pressing enter on search submits the form
+  document.getElementById('searchForm').addEventListener('submit', e => {
+    // Nothing special needed, form opens google search in new tab by target="_blank"
+  });
+</script>
+</body>
+</html>
+<!-- This is a simple new tab page for Corvia Browser. It allows users to search Google and set a custom background image. -->
+<!-- The background image is saved in localStorage, so it persists across sessions. --> 

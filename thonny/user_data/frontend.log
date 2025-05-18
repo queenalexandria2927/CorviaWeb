@@ -1,0 +1,38 @@
+10:11:09.003 [MainThread] INFO    thonny: Thonny version: 4.1.7
+10:11:09.003 [MainThread] INFO    thonny: cwd: C:\Users\Alexandria Myers\Documents\GitHub\CorviaWeb\thonny
+10:11:09.004 [MainThread] INFO    thonny: original argv: []
+10:11:09.004 [MainThread] INFO    thonny: sys.executable: C:\Users\Alexandria Myers\Documents\GitHub\CorviaWeb\thonny\pythonw.exe
+10:11:09.004 [MainThread] INFO    thonny: sys.argv: ['C:\\Users\\Alexandria Myers\\Documents\\GitHub\\CorviaWeb\\thonny\\thonny.exe']
+10:11:09.004 [MainThread] INFO    thonny: sys.path: ['C:\\Users\\Alexandria Myers\\Documents\\GitHub\\CorviaWeb\\thonny\\python310.zip', 'C:\\Users\\Alexandria Myers\\Documents\\GitHub\\CorviaWeb\\thonny\\DLLs', 'C:\\Users\\Alexandria Myers\\Documents\\GitHub\\CorviaWeb\\thonny\\lib', 'C:\\Users\\Alexandria Myers\\Documents\\GitHub\\CorviaWeb\\thonny', 'C:\\Users\\Alexandria Myers\\Documents\\GitHub\\CorviaWeb\\thonny\\lib\\site-packages']
+10:11:09.004 [MainThread] INFO    thonny: sys.flags: sys.flags(debug=0, inspect=0, interactive=0, optimize=0, dont_write_bytecode=0, no_user_site=1, no_site=0, ignore_environment=1, verbose=0, bytes_warning=0, quiet=0, hash_randomization=1, isolated=1, dev_mode=False, utf8_mode=0, warn_default_encoding=0, int_max_str_digits=-1)
+10:11:12.799 [MainThread] INFO    thonny.workbench: Starting Workbench
+10:11:12.854 [MainThread] INFO    thonny.workbench: Creating runner
+10:11:12.861 [MainThread] INFO    thonny.workbench: Start loading plugins
+10:11:13.253 [MainThread] INFO    thonny.workbench: Done loading plugins
+10:11:13.254 [MainThread] WARNING thonny.workbench: Could not find UI theme 'clam', switching to default
+10:11:13.295 [MainThread] INFO    thonny.workbench: Opening views
+10:11:13.429 [MainThread] INFO    thonny.plugins.cpython_frontend.cp_front: Creating LocalCPythonProxy
+10:11:13.429 [MainThread] INFO    thonny.running: Starting the backend: ['C:\\Users\\Alexandria Myers\\Documents\\GitHub\\CorviaWeb\\thonny\\python.exe', '-u', '-B', 'C:\\Users\\Alexandria Myers\\Documents\\GitHub\\CorviaWeb\\thonny\\lib\\site-packages\\thonny\\plugins\\cpython_backend\\cp_launcher.py', 'C:\\Users\\Alexandria Myers', "{'run.warn_module_shadowing': True}"] C:\Users\Alexandria Myers
+10:11:24.199 [MainThread] INFO    thonny.ui_utils: Parent y: 89, rooty: 140, vrooty: -2642
+10:11:24.199 [MainThread] INFO    thonny.ui_utils: Placing .!localcpythonpipdialog with geometry +-949+198
+10:11:30.858 [ThreadPoolExecutor-0_0] INFO    thonny.plugins.pip_gui: Performing PyPI search for 'pyqt6'
+10:11:31.151 [ThreadPoolExecutor-0_0] INFO    thonny.plugins.pip_gui: Downloading package info ('pyqt6', None) from https://pypi.org/pypi/pyqt6/json
+10:11:33.807 [ThreadPoolExecutor-1_0] INFO    thonny.plugins.pip_gui: Downloading package info from https://pypi.org/pypi/PyQt6/json
+10:11:36.058 [MainThread] INFO    thonny.ui_utils: Parent y: 504, rooty: 535, vrooty: -2642
+10:11:36.058 [MainThread] INFO    thonny.ui_utils: Placing .!localcpythonpipdialog.!inlinecommanddialog with geometry +625+665
+10:12:11.001 [MainThread] INFO    thonny.ui_utils: Parent y: 89, rooty: 140, vrooty: -2642
+10:12:11.001 [MainThread] INFO    thonny.ui_utils: Placing .!localcpythonpipdialog2 with geometry +-949+198
+10:12:15.203 [ThreadPoolExecutor-2_0] INFO    thonny.plugins.pip_gui: Performing PyPI search for 'PyQt6.QtWebEngineWidgets'
+10:12:15.572 [ThreadPoolExecutor-2_0] INFO    thonny.plugins.pip_gui: Downloading package info ('pyqt6-qtwebenginewidgets', None) from https://pypi.org/pypi/pyqt6-qtwebenginewidgets/json
+10:12:15.731 [ThreadPoolExecutor-2_0] INFO    thonny.plugins.pip_gui: No luck with exact match 'pyqt6-qtwebenginewidgets'
+10:12:21.593 [ThreadPoolExecutor-3_0] INFO    thonny.plugins.pip_gui: Performing PyPI search for 'PyQt6'
+10:12:21.789 [ThreadPoolExecutor-3_0] INFO    thonny.plugins.pip_gui: Downloading package info ('pyqt6', None) from https://pypi.org/pypi/pyqt6/json
+10:12:23.449 [ThreadPoolExecutor-4_0] INFO    thonny.plugins.pip_gui: Downloading package info from https://pypi.org/pypi/PyQt6/json
+10:12:39.840 [ThreadPoolExecutor-5_0] INFO    thonny.plugins.pip_gui: Performing PyPI search for 'PyQt5'
+10:12:40.060 [ThreadPoolExecutor-5_0] INFO    thonny.plugins.pip_gui: Downloading package info ('pyqt5', None) from https://pypi.org/pypi/pyqt5/json
+10:12:41.777 [ThreadPoolExecutor-6_0] INFO    thonny.plugins.pip_gui: Downloading package info from https://pypi.org/pypi/PyQt5/json
+10:12:42.840 [MainThread] INFO    thonny.ui_utils: Parent y: 198, rooty: 229, vrooty: -2642
+10:12:42.840 [MainThread] INFO    thonny.ui_utils: Placing .!localcpythonpipdialog2.!inlinecommanddialog with geometry +-776+359
+10:14:41.605 [MainThread] INFO    thonny.running: Killing backend process
+10:14:41.606 [MainThread] INFO    thonny.shell: BaseShellText._on_backend_terminated
+10:14:41.616 [Thread-2 (_listen_stdout)] INFO    thonny.running: Reader got EOF

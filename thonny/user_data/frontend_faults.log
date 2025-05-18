@@ -1,0 +1,35 @@
+Windows fatal exception: access violation
+
+Thread 0x00004df0 (most recent call first):
+  File "C:\Users\Alexandria Myers\Documents\GitHub\CorviaWeb\thonny\lib\site-packages\thonny\common.py", line 772 in read_one_incoming_message_str
+  File "C:\Users\Alexandria Myers\Documents\GitHub\CorviaWeb\thonny\lib\site-packages\thonny\running.py", line 1249 in _listen_stderr
+  File "C:\Users\Alexandria Myers\Documents\GitHub\CorviaWeb\thonny\lib\threading.py", line 953 in run
+  File "C:\Users\Alexandria Myers\Documents\GitHub\CorviaWeb\thonny\lib\threading.py", line 1016 in _bootstrap_inner
+  File "C:\Users\Alexandria Myers\Documents\GitHub\CorviaWeb\thonny\lib\threading.py", line 973 in _bootstrap
+
+Thread 0x0000429c (most recent call first):
+  File "C:\Users\Alexandria Myers\Documents\GitHub\CorviaWeb\thonny\lib\site-packages\thonny\common.py", line 772 in read_one_incoming_message_str
+  File "C:\Users\Alexandria Myers\Documents\GitHub\CorviaWeb\thonny\lib\site-packages\thonny\running.py", line 1209 in _listen_stdout
+  File "C:\Users\Alexandria Myers\Documents\GitHub\CorviaWeb\thonny\lib\threading.py", line 953 in run
+  File "C:\Users\Alexandria Myers\Documents\GitHub\CorviaWeb\thonny\lib\threading.py", line 1016 in _bootstrap_inner
+  File "C:\Users\Alexandria Myers\Documents\GitHub\CorviaWeb\thonny\lib\threading.py", line 973 in _bootstrap
+
+Thread 0x00002430 (most recent call first):
+  File "C:\Users\Alexandria Myers\Documents\GitHub\CorviaWeb\thonny\lib\socket.py", line 293 in accept
+  File "C:\Users\Alexandria Myers\Documents\GitHub\CorviaWeb\thonny\lib\site-packages\thonny\workbench.py", line 552 in server_loop
+  File "C:\Users\Alexandria Myers\Documents\GitHub\CorviaWeb\thonny\lib\threading.py", line 953 in run
+  File "C:\Users\Alexandria Myers\Documents\GitHub\CorviaWeb\thonny\lib\threading.py", line 1016 in _bootstrap_inner
+  File "C:\Users\Alexandria Myers\Documents\GitHub\CorviaWeb\thonny\lib\threading.py", line 973 in _bootstrap
+
+Current thread 0x00002838 (most recent call first):
+  File "C:\Users\Alexandria Myers\Documents\GitHub\CorviaWeb\thonny\lib\site-packages\thonny\misc_utils.py", line 527 in _copy_to_windows_clipboard
+  File "C:\Users\Alexandria Myers\Documents\GitHub\CorviaWeb\thonny\lib\site-packages\thonny\misc_utils.py", line 481 in copy_to_clipboard
+  File "C:\Users\Alexandria Myers\Documents\GitHub\CorviaWeb\thonny\lib\site-packages\thonny\workbench.py", line 2393 in destroy
+  File "C:\Users\Alexandria Myers\Documents\GitHub\CorviaWeb\thonny\lib\site-packages\thonny\workbench.py", line 2343 in _on_close
+  File "C:\Users\Alexandria Myers\Documents\GitHub\CorviaWeb\thonny\lib\tkinter\__init__.py", line 1921 in __call__
+  File "C:\Users\Alexandria Myers\Documents\GitHub\CorviaWeb\thonny\lib\tkinter\__init__.py", line 1458 in mainloop
+  File "C:\Users\Alexandria Myers\Documents\GitHub\CorviaWeb\thonny\lib\site-packages\thonny\__init__.py", line 280 in launch
+  File "C:\Users\Alexandria Myers\Documents\GitHub\CorviaWeb\thonny\lib\site-packages\thonny\__main__.py", line 4 in <module>
+  File "C:\Users\Alexandria Myers\Documents\GitHub\CorviaWeb\thonny\lib\runpy.py", line 86 in _run_code
+  File "C:\Users\Alexandria Myers\Documents\GitHub\CorviaWeb\thonny\lib\runpy.py", line 227 in run_module
+  File "<string>", line 3 in <module>
